@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    
+}
+
+/* Sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* Title-Section */
+    
+#title{
+    text-align: center;
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+    padding: 10px;
+    justify-content: center;
+    padding-left: 20px;
+}
+.nav-item{
+    margin: 0 15px;
+ }
+    
+    
+/* Navigation bar */
+    
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.0rem;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    letter-spacing: 0.48px;
+}
+/* hero section */
+
+#hero{
+    padding-left: 20px;
+    align-items: center;
+    text-align: left;
+}
+.top-container{
+    background-color: grey;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+}
+.middle-container{
+    background-color: gray;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    position: relative;
+    display: inline-block;
+}
+.bottom-container{
+    background-color: grey;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    position: relative;
+    display: inline-block;
+
+}
+p{
+    margin-top: 30px;
+}
+.btn{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 50%;
+    border-top: 0px;
+    border-right: 0px;
+}
+#a .btn{
+    background-color:coral;
+}
+#b .btn{
+    background-color: maroon;
+    color: white;
+}
+#c .btn{
+    background-color: yellow;
+}
+.btn:hover{
+    color: antiquewhite;
+}
+
+/* Desktop styles goes here */
+@media (min-width:1026px) {
+    #hero{
+        padding-left: 50px;
+        align-items: center;
+    }
+    .top-container{
+        background-color: grey;
+        width: 400px;
+        height: 300px;
+        border: 1px solid black;
+        padding: 20px;
+        margin: 20px;
+        position: relative;
+        display: inline-block;
+    }
+    .middle-container{
+        background-color: gray;
+        width: 400px;
+        height: 300px;
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid black;
+        position: relative;
+        display: inline-block;
+    }
+    .bottom-container{
+        background-color: grey;
+        width: 400px;
+        height: 300px;
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid black;
+        position: relative;
+        display: inline-block;
+    
+    }
+}
+@media (min-width:992px) and (max-width:1025px){
+    #hero{
+        padding-left: 10px;
+        align-items: center;
+    }
+    .top-container{
+        background-color: grey;
+        width: 300px;
+        height: 400px;
+        border: 1px solid black;
+        padding: 20px;
+        margin: 9px;
+        position: relative;
+        display: inline-block;
+    }
+    .middle-container{
+        background-color: gray;
+        width: 300px;
+        height: 400px;
+        padding: 20px;
+        margin: 9px;
+        border: 1px solid black;
+        position: relative;
+        display: inline-block;
+    }
+    .bottom-container{
+        background-color: grey;
+        width: 300px;
+        height: 400px;
+        padding: 20px;
+        margin: 9px;
+        border: 1px solid black;
+        position: relative;
+        display: inline-block;
+    
+    }
+    .btn{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 1px;
+        width: 50%;
+    }
+    #a .btn{
+        background-color:coral;
+    }
+    #b .btn{
+        background-color: maroon;
+        color: white;
+    }
+    #c .btn{
+        background-color: yellow;
+    }
+    .btn:hover{
+        background-color: antiquewhite;
+    }
+
+  
+}
+
+/* Tablet styles goes hers */
+@media(min-width:767px) and (max-width:991px){
+    #hero{
+        align-items: center;
+    }
+    .top-container{
+        background-color: grey;
+        width: 330px;
+        height: 400px;
+        border: 1px solid black;
+        padding: 20px;
+        margin: 1px;
+        margin-left: 10px;
+        position: relative;
+        display: inline-block;
+    }
+    .middle-container{
+        background-color: gray;
+        width: 330px;
+        height: 400px;
+        padding: 20px;
+        margin: 3px;
+        border: 1px solid black;
+        position: relative;
+        display: inline-block;
+    }
+    .bottom-container{
+        background-color: grey;
+        width: 90%;
+        height: 180px;
+        padding: 10px;
+        margin: 20px;
+        margin-left: 5px;
+        border: 1px solid black;
+        position: relative;
+        display: inline-block;
+    
+    }
+    #c .btn{
+        width: 20%;
+    }
+    
+
+}
+
+/* Mobiles styles goes here */
+@media(max-width:767px){
+    #title{
+        text-align: center;
+        background-color: #f6b319;
+        border-radius: 0;
+        border: 0;
+        justify-content: center;
+        padding: 5px;
+        width: 490px;
+    }
+    .nav-item{
+        margin: 0 15px;
+     }
+        
+        
+    /* Navigation bar */
+        
+    .navbar{
+      padding:0;
+    }
+    .navbar-brand{
+      font-family: "Ubuntu";
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-top: 2px;
+      margin-left: 10px;
+    }
+    #hero{
+        padding-left: 20px;
+        align-items: center;
+    }
+    h2{
+        margin-left: 90px;
+    }
+}
+  
